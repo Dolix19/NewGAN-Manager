@@ -50,7 +50,7 @@ class NewGANManager(toga.App):
         self.logger.addHandler(fh)
         self.logger.info("Starting Application\n------------------------------------------------")
         self.logger.info(str(self.paths.app))
-        self.facepack_dirs = set(["African", "Asian", "Caucasian", "Central European", "EECA", "Italmed", "MENA", "MESA", "SAMed", "Scandinavian", "Seasian", "South American", "SpanMed", "YugoGreek"])
+        self.facepack_dirs = set(["African", "Asian", "Caucasian", "Central European", "EECA", "ItalMed", "MENA", "MESA", "SAMed", "Scandinavian", "Seasian", "South American", "SpanMed", "YugoGreek"])
         self.mode_info = {"Overwrite": "Overwrites already replaced faces",
                           "Preserve":  "Preserves already replaced faces",
                           "Generate": "Generates mapping from scratch."}
